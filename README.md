@@ -19,11 +19,14 @@ export default tseslint.config({
     // other options...
     parserOptions: {
       project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
+      tsconfigRootDir: import.meta.dirname,![Fade-Animate](https://github.com/user-attachments/assets/3618be18-47c4-4933-8086-9dafd492466d)
+
     },
   },
 })
 ```
+![Uploading Fade-Animate.png…]()
+
 
 - Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
 - Optionally add `...tseslint.configs.stylisticTypeChecked`
